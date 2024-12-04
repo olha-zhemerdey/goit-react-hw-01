@@ -1,6 +1,6 @@
 .profileContainer {
   max-width: 90%;
-  background-color: rgb(247, 242, 235);
+  background-color: var(--background-color);
   width: 400px;
   border: 1px solid;
   border-radius: 20px;
@@ -15,7 +15,7 @@
 .profileImg {
   width: 250px;
   border-radius: 50%;
-  background-color: var(--gray-light-color);
+  background-color: var(--grey-light-color);
   margin-bottom: 40px;
 }
 
@@ -27,7 +27,7 @@
 
 .profileSubtitle {
   text-align: center;
-  color: var(--gray-color);
+  color: var(--grey-color);
   font-size: 18px;
 }
 
@@ -39,7 +39,7 @@
   justify-content: center;
   gap: 40px;
   border-top: 1px solid;
-  background-color: var(--gray-light-color);
+  background-color: var(--grey-light-color);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }

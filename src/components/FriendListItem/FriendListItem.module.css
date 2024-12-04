@@ -1,0 +1,7 @@
+.onLine {
+  color: var(--green-color);
+}
+
+.offLine {
+  color: var(--red-color);
+}

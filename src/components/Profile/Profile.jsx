@@ -12,7 +12,7 @@ const Profile = ({
       <div className={css.profileItems}>
         <img className={css.profileImg} src={image} alt="User avatar" />
         <p className={css.profileTitle}>{name}</p>
-        <p className={css.profileSubtitle}>{tag}</p>
+        <p className={css.profileSubtitle}>@{tag}</p>
         <p className={css.profileSubtitle}>{location}</p>
       </div>
 
@@ -32,5 +32,5 @@ const Profile = ({
       </ul>
     </div>
   );
-}
+};
 export default Profile;

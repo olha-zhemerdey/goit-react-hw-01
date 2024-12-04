@@ -1,0 +1,23 @@
+.table {
+  width: 600px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid var(--black-color);
+  padding: 6px;
+}
+
+th {
+  background-color: var(--light-dark-color);
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: var(--grey-color);
+}
